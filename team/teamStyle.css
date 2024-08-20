@@ -1,0 +1,322 @@
+.back-after-header {
+    background-image: url(./img/back/breadcurmb.jpg);
+    position: relative;
+    height: 336px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: bottom;
+}
+.m-width {
+    max-width: 1478px;
+    margin: 0 auto;
+}
+.title-back {
+    margin-left: 10%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.form-btn {
+    padding: 19px 33.5%;
+}
+
+.contact-input-box input {
+    padding-right: 72px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.after-title-back {
+    display: flex;
+}
+
+.f-19 {
+    font-size: 19px
+}
+
+.team-area {
+    padding-bottom: 120px;
+    padding-top: 140px;
+}
+
+.team-card {
+    padding-left: 26PX;
+    width: 45%;
+    display: flex;
+    padding-bottom: 55px;
+    overflow: hidden;
+}
+
+.txt-human {
+    width: 50%;
+    height: 100%;
+    background-color: #f8f8f8;
+}
+
+.team-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.txt-span {
+    padding-bottom: 20px;
+    display: block
+}
+
+.icon-team {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.div-card {
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.team-card:hover img {
+    transition: 0.9s;
+    transform: scale(1.03);
+}
+
+
+.contact-icon {
+    right: 12cm;
+}
+
+
+.foter {
+    display: flex;
+    margin-top: 4cm;
+    margin-left: -92px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 43px;
+}
+
+.logo-footer {
+    margin-bottom: 36px;
+}
+
+.left-right {
+    display: flex;
+    margin-left: 62px;
+    justify-content: space-between;
+}
+
+.footer-text {
+    padding-bottom: 30px;
+}
+
+.footer-input-box {
+    position: relative;
+}
+
+.footer-input-box input {
+
+    height: 56px;
+    line-height: 56px;
+    color: #54595F;
+    padding-right: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer-icon {
+    position: absolute;
+    top: 0;
+    right: 56px;
+}
+
+.footer-icon span {
+    height: 56px;
+    width: 54px;
+    line-height: 56px;
+    display: inline-block;
+    text-align: center;
+    background-color: #a6a182;
+    color: #fff;
+}
+
+.right-footer {
+    margin-bottom: 50px;
+    margin-left: 35px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-bottom: 28px;
+}
+
+.footer-list {
+    margin-bottom: 10px;
+    direction: rtl;
+}
+
+.footer-list ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer-list ul li a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 38px;
+}
+
+.footer-list ul li {
+    margin-bottom: -40px;
+    font-size: 13px;
+}
+
+.footer-widget {
+    display: flex;
+    flex-direction: column;
+    margin-left: 115px;
+    width: 71%;
+    align-items: flex-end;
+}
+
+.tp-footer-contact ul {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-top: 44px;
+    align-items: flex-start;
+    font-size: 21px;
+}
+
+.tp-footer-title {
+    font-size: 25px;
+}
+
+.tp-footer-contact ul li span {
+    color: #A6A182;
+}
+
+.tp-footer-contact ul li {
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+.after-footer {
+
+    display: flex;
+    border-top: 0.5px solid;
+    margin: 21px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.after-footer-a a {
+    margin-left: 0.5cm;
+
+}
+
+.left1-footer {
+    width: 50%;
+}
+
+.header {
+    height: 110px;
+}
+
+.buy-tag {
+    gap: 2rem;
+    align-items: flex-end;
+    color: #A6A182;
+}
+
+.buy-tag a {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+.buy-tag svg {
+    margin-left: -18px;
+}
+
+.p-card{
+    padding: 63px 32px;
+}
+@media (min-width:768px) {
+    .foter {
+        justify-content: center;
+    }
+
+    .after-footer {
+        padding: 0 15px;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .ul {
+        display: none;
+    }
+
+    .buy-tag {
+        display: none;
+    }
+
+    .title-back {
+        margin-left: 12%;
+    }
+
+    .form-btn {
+        padding: 19px 38%;
+    }
+
+    .div-card {
+        flex-direction: column;
+    }
+
+    .team-card {
+        overflow: visible;
+        width: 90%;
+    }
+
+    .p-card {
+        padding: 63px 61px;
+    }
+
+    .txt-human {
+        width: 81%;
+        height: auto;
+    }
+
+}
+@media (max-width: 570px){
+    .txt-human{
+        display: none;
+    }
+    .w-84{
+        width: 84%;
+    }}

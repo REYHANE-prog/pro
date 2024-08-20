@@ -1,0 +1,306 @@
+.direction {
+    margin: 6%;
+    gap: 6.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+}
+.m-width {
+    max-width: 1478px;
+    margin: 0 auto;
+}
+.header-ul {
+    visibility: hidden;
+    display: none;
+}
+
+.header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div-service {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text {
+    color: black;
+}
+
+.card-price {
+    width: 100%;
+    padding: 27px 0;
+    margin-top: 50px;
+    background-color: rgba(166, 161, 130, 0.1);
+}
+
+.card-div {
+    text-align: center;
+    width: 96%;
+    padding: 40px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 60px;
+}
+
+.cards-div {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-price {
+    padding-top: 43px;
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+}
+
+.card-price h6 {
+    font-size: 35px;
+    opacity: 2;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0;
+    color: #A6A182;
+}
+
+.card-div ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 22px;
+    gap: 1rem;
+}
+
+.card-div ul li span {
+    margin-right: 14px;
+    font-size: 18px;
+    color: #A6A182;
+}
+
+.btn-theme {
+    margin-top: 50px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 40%;
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    background-color: #A6A182;
+}
+
+.btn-theme:hover {
+    background-color: black;
+}
+
+.contact-icon {
+    right: 12cm;
+}
+
+.header {
+    height: 110px;
+}
+
+.buy-tag {
+    gap: 2rem;
+    align-items: flex-end;
+    color: #A6A182;
+}
+
+.buy-tag a {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
+
+.buy-tag svg {
+    margin-left: -18px;
+}
+
+.footer-input-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-icon {
+    position: static;
+}
+
+.left1-footer{
+    margin-left: 10%;
+    width: 50%;
+}
+@media (min-width: 768px) {
+    .h-f {
+        display: flex;
+    }
+    .cards-div {
+        padding: 0 57px;
+        gap: 2rem;
+        flex-direction: row;
+    }
+
+    .direction {
+        flex-direction: column;
+    }
+
+    .div-service {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .about-big-text {
+        visibility: visible;
+    }
+
+    .header-ul {
+        visibility: visible;
+    }
+
+    .btn-head {
+        visibility: visible;
+    }
+
+    .buy-tag {
+        visibility: visible;
+    }
+
+    .burger {
+        visibility: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foter {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .after-footer {
+        padding: 0 15px;
+        flex-direction: row;
+    }
+
+    .title-back {
+        margin-left: 12%;
+    }
+
+    .area {
+        flex-direction: row;
+    }
+
+    .pc-size {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .w-100 {
+        width: 81%;
+    }
+
+    .contact-box {
+        padding-top: 10%;
+    }
+
+    h4 {
+        font-size: 44px;
+    }
+
+    .form-h4 {
+        padding-left: 29px;
+    }
+}
+
+@media (max-width:768px) {
+    .burger {
+        visibility: visible;
+    }
+}
+
+@media (max-width:498px) {
+    .left-right {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 113pX;
+    }
+
+    .footer-widget {
+        margin-right: 96px;
+        margin-left: -11px;
+    }
+
+    .m-t {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .footer-input-box input {
+        padding-right: 6px;
+    }
+
+    .left-testimonial-active {
+        width: 60%;
+        flex-direction: column;
+    }
+
+    .text-project-area {
+        text-align: center;
+    }
+
+    .txt-after-img {
+        font-size: 15px;
+        padding-right: 10px;
+        line-height: 31px;
+        text-align: center;
+    }
+
+    .txt-after-img h4 {
+        font-size: 16px;
+    }
+    .contact{
+        padding-left: 2%;
+    }
+}
+
+@media (max-width:340px){
+    .left-right{
+        margin-left: 52px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .contact-title{
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    
+    .footer-widget{
+        margin-right: 0;
+    }
+    footer{
+        text-align: center;
+    }
+    .footer-input-box input {
+        width: 50%;
+    }
+    h3 {
+        font-size: 118%;
+    }
+}
